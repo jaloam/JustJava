@@ -15,12 +15,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Cantidad"
+        android:text="@string/cantidad"
         android:textAllCaps="true" />
 
 
     <Button
-        android:text="+"
+        android:text="@string/increment"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:onClick="increment"
@@ -31,9 +31,10 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:textColor="@android:color/black"
-        android:text="0" />
+        android:text="@string/defaultQuantity"
+        android:inputType=""/>
     <Button
-        android:text="-"
+        android:text="@string/decrement"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:onClick="decrement"
@@ -44,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:textAllCaps="true"
-        android:text="Precio" />
+        android:text="@string/precio" />
 
 
     <EditText
@@ -54,14 +55,15 @@
         android:layout_marginTop="16dp"
         android:textSize="16sp"
         android:textColor="@android:color/black"
-        android:text="0"/>
+        android:text="@string/defaultPrice"
+        android:inputType=""/>
 
     <Button
         android:id="@+id/orderbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Pedir"
+        android:text="@string/pedir"
         android:onClick="submitOrder"/>
 
 </LinearLayout>

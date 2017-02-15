@@ -2,4 +2,12 @@
     <string name="app_name">Just Java</string>
     <string name="quantity">Quantity</string>
     <string name="order">order</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="pedir">Pedir</string>
+    <string name="precio">Precio</string>
+    <string name="_0">0</string>
+    <string name="defaultPrice">0</string>
+    <string name="defaultQuantity">0</string>
 </resources>
